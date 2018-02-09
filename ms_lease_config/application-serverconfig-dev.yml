@@ -33,8 +33,3 @@ security:
   sessions: stateless
   basic:
     enabled: true
-
-
-
-aaaa:
-  hello
