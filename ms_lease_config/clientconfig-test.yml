@@ -16,6 +16,3 @@ spring:
     username: root
     password: admin
     driver-class-name: com.mysql.jdbc.Driver
-
-common:
-  path: C:/Users/xie/IdeaProjects/p/ms_lease/ms_lease_pictureserver/src/main/webapp/
