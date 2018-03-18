@@ -1,7 +1,8 @@
 spring:
   devtools:
     enabled: true
-    restart: static/**,public/**,templates/**
+    restart:
+      exclude: static/**,public/**,templates/**
   thymeleaf:
     prefix: classpath:/templates/
     mode: LEGACYHTML5
