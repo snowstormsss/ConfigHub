@@ -1,6 +1,4 @@
 spring:
-  resources:
-    static-locations:classpath:/views
   thymeleaf:
     prefix: classpath:/templates/
     mode: LEGACYHTML5
