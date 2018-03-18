@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/ms_sale
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+
+common:
+  path: C:/Users/xie/IdeaProjects/p/ms_lease/ms_lease_pictureserver/src/main/webapp/
