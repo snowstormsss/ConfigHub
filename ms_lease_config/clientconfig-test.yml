@@ -1,9 +1,12 @@
 spring:
+  resources:
+    static-locations:classpath:/views
   thymeleaf:
     prefix: classpath:/templates/
     mode: LEGACYHTML5
     cache: false
     content-type: text/html
+
   http:
     multipart:  # 文件上传
       enabled: true
