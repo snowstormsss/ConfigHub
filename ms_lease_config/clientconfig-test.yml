@@ -1,10 +1,12 @@
 spring:
+  devtools:
+    enabled: true
+    restart: static/**,public/**,templates/**
   thymeleaf:
     prefix: classpath:/templates/
     mode: LEGACYHTML5
     cache: false
     content-type: text/html
-
   http:
     multipart:  # 文件上传
       enabled: true
